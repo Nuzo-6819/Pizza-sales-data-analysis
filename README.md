@@ -1,63 +1,94 @@
 # 🍕 Pizza Sales Dashboard - Power BI Analysis
 
-This project is a Power BI dashboard developed to analyze pizza sales data and uncover key business insights. As a Data Analyst, I designed this report to help stakeholders make data-driven decisions by exploring patterns in customer orders, sales trends, and product performance.
+This project presents an interactive Power BI dashboard that analyzes pizza sales to uncover actionable insights for business optimization. It answers key questions like peak sales times, most popular products, and customer preferences.
 
-## 📊 Dashboard Overview
+---
 
-The Power BI report includes multiple visuals and KPIs spread across interactive dashboards to answer specific business questions, including:
+## 📸 Dashboard Screenshot
 
-### 🔍 Key Insights
+![Pizza Sales Dashboard](./bi.png)
 
-- **Days with Highest Number of Orders**  
-  Identify which days have peak customer activity to plan promotions and staffing.
+---
 
-- **Most Ordered Pizza Name**  
-  Understand which pizza products are the top-sellers.
+## 📊 Dashboard Insights
 
-- **Most Popular Pizza Category**  
-  Compare the popularity of Classic, Veggie, and Supreme categories.
+This Power BI report is split across two dashboards (`Dashboard 1` and `Dashboard 2`) with visuals that answer important business questions such as:
 
-- **Peak Order Time for Pizza**  
-  Discover the time of day with the highest sales to optimize kitchen operations.
+- **🗓️ Days with Highest Number of Orders**  
+  Discover peak order days for scheduling and promotions.
 
-- **Most Popular Pizza Size**  
-  Analyze whether customers prefer Medium or Large pizzas.
+- **🍕 Most Ordered Pizza Name**  
+  Analyze the most popular pizzas by total order count.
 
-- **Vegetarian vs. Non-Vegetarian Preference**  
-  Visualize customer preference for vegetarian and non-vegetarian pizza options.
+- **🍽️ Most Popular Pizza Category**  
+  Comparison between Classic, Veggie, and Supreme pizzas.
 
-## 🛠 Tools & Technologies
+- **⏰ Peak Order Time**  
+  Identify high-demand hours for kitchen planning.
+
+- **📏 Pizza Size Preference**  
+  Understand whether Medium or Large sizes are more popular.
+
+- **🥦 Vegetarian vs Non-Vegetarian Preferences**  
+  Visual breakdown of customer tastes and dietary trends.
+
+---
+
+## 📂 Project Files
+
+| File | Description |
+|------|-------------|
+| `Pizza_Sales_Dashboard.pbix` | Power BI Dashboard file |
+| `Pizza_Sales_Dataset.csv` | Raw dataset used for analysis |
+| `bi.png` | Screenshot of the Power BI dashboard |
+| `README.md` | Project documentation |
+
+---
+
+## 📁 Dataset Overview
+
+The dataset contains order-level pizza sales data, including:
+
+- Order date and time
+- Pizza name and category
+- Size (M or L)
+- Quantity and total price
+
+> The dataset was cleaned and modeled in Power BI using Power Query for visualization.
+
+---
+
+## 🛠 Tools Used
 
 - **Power BI Desktop**
-- **Data Cleaning & Modeling in Power Query**
-- **Custom Visualizations and DAX Calculations**
-- **Interactive Filters and Drill-through Analysis**
+- **Power Query (ETL)**
+- **DAX for Measures**
+- **Custom Visualizations**
+- **Data Modeling & Relationships**
 
-## 📁 File Contents
+---
 
-- `Dashboard1` and `Dashboard2` tabs: Contain different views and insights based on the pizza sales dataset.
-- Visuals: Bar charts, pie charts, donut charts, and trend lines.
+## 🚀 How to Use
 
-## 🚀 Getting Started
+1. Clone or download this repository.
+2. Open `Pizza_Sales_Dashboard.pbix` using [Power BI Desktop](https://powerbi.microsoft.com/desktop).
+3. Review visuals or explore data using slicers and filters.
+4. Optional: Replace dataset with your own to reuse the dashboard structure.
 
-To view or interact with this report:
-
-1. Clone this repository.
-2. Open the `.pbix` file in Power BI Desktop.
-3. Refresh data (if source file paths are updated) and interact with filters or visuals.
-
-> **Note**: This project uses sample pizza sales data for analysis purposes.
+---
 
 ## 👨‍💻 Author
 
 **Victor**  
 *Data Analyst*  
-[LinkedIn Profile](https://www.linkedin.com) *(Add your link)*  
-📧 Email: uzochukwuv09@gmail.com
+[LinkedIn](https://www.linkedin.com) *(Add your profile)*  
+📧  uzochukwuv09@gmail.com
+
+---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
